@@ -1,7 +1,7 @@
 ### 本地运行
-npm run docs:dev
+npm run dev
 ### 构建
-npm run docs:build
+npm run build
 ### 部署
 npm run dep
 

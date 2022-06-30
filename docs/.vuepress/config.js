@@ -37,7 +37,7 @@ module.exports = {
       {
         title: '欢迎学习',
         path: '/',
-        collapsable: false, // 不折叠
+        // collapsable: false, // 不折叠
         children: [
             { title: "学前必读", path: "/" }
         ]
@@ -45,7 +45,6 @@ module.exports = {
       {
         title: "基础学习",
         path: '/handbook/ConditionalTypes',
-        collapsable: false, // 不折叠
         children: [
           { title: "条件类型", path: "/handbook/ConditionalTypes" },
           { title: "泛型", path: "/handbook/Generics" }
@@ -54,7 +53,10 @@ module.exports = {
       {
         title: '计算机基础',
         path: '/computer-basics/1',
-        children: []
+        children: [
+          { title: "基础", path: "/computer-basics/2" },
+          { title: "进阶", path: "/computer-basics/3" }
+        ],
       },
       {
         title: '计算机网络'
