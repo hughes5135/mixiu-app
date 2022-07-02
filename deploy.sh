@@ -15,12 +15,13 @@ cd docs/.vuepress/dist
 git init
 git add -A
 git commit -m 'deploy'
-git config --global user.name "hughes5135"
-git config --global user.email "hughes5135@163.com"
+git branch -M main
+git config --global user.name "hxius"
+git config --global user.email "bebe1757@163.com"
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:hughes5135/mixiu.git master
+git push -f git@github.com:hxius/hxius.github.io.git main
 
 cd -

@@ -1,13 +1,13 @@
 module.exports = {
-  title: '米修记忆',
-  description: 'Just playing around',
+  title: '米修·记忆',
+  description: '道格拉斯·米修',
   // base: '/',
   locales: {
     '/': {
       lang: 'zh-CN'
     }
   },
-  base: '/mixiu/',
+  base: '/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
